@@ -12,7 +12,7 @@ def merge_txt(dir_path, txt_name):
             txt_file.writelines(txt)
         txt_file.write('\n')
     txt_file.close()
-	print('done.')
+    print('done.')
     
     
 def preprocess(data):
